@@ -30,12 +30,22 @@ Each subset includes:
 - `leftImg8bit/`: contains RGB images for training and validation.
 - `gtFine/`: contains ground truth segmentation masks in `labelLevel3Ids` format.
 
+
+> - Downlaod the datasets from https://idd.insaan.iiit.ac.in/dataset/download/
+> - Note: Create an account and then go to datasets (on the website) to download it.
+> - The first part is the IDD Segmentation (IDD 20k Part I).
+> - The other part is IDD Segmentation (IDD 20k Part II).
+
+
+
 The masks used for training were generated using preprocessing scripts adapted from the public GitHub repository:
 
 **GitHub Source for Mask Generation:**  
 https://github.com/AutoNUE/public-code
 
-Please ensure that the directory structure is preserved:
+- Create a folder named as `data` and create another folder as `IDD_Segmentation` inside `data`.
+- Extract the Dowloaded datasets into this folder and
+- Please ensure that the directory structure is preserved:
 
 ```
 data/
