@@ -135,4 +135,3 @@ If the model already exists, training will be skipped and the saved model will b
 - The project is structured modularly to support further experimentation with different architectures and datasets.
 - For reproducibility, random seeds and consistent data splits are used.
 - File paths in the notebook are system-specific by default; consider verifying and updating them for your own environment.
-- The masks for the dataset that is shown or stored in this repository has already been created using the public-code repository.
